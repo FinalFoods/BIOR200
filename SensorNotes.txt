@@ -1,0 +1,30 @@
+Pin Mapping used in PLC 38AR+ with the Bailun bioreactor
+--------------------------------------------------------
+
+I0.7: Temperature Sensor 
+-------------------------
+analog input I0.7
+/sys/bus/i2c/devices/1-004a/iio:device1/in_voltage0_raw
+
+at T 0 deg C reading is 230
+
+I0.8: pH Sensor
+---------------
+analog input I0.8
+/sys/bus/i2c/devices/1-004a/iio:device1/in_voltage1_raw
+
+at pH 6.75 reading is 686
+
+I0.9: Dissolved Oxygen Sensor
+-----------------------------
+analog input I0.9
+/sys/bus/i2c/devices/1-004b/iio:device0/in_voltage0_raw
+
+at DO 98.8 reading is 542
+
+I0.10: Servo Input 
+------------------
+analog input I0.10
+/sys/bus/i2c/devices/1-0048/iio:device3/in_voltage2_raw
+
+at 500 rpm reading is 1024
